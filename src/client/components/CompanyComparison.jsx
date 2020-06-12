@@ -12,7 +12,7 @@ import {
   FormLabel,
 } from '@material-ui/core';
 import Race_Company from './Race_Company.jsx';
-import Age_Company from './Age_Company.jsx';
+import Age_Company from './Age_Company.tsx';
 import Gender_Company from './Gender_Company.jsx';
 import Total_Company from './Total_Company.jsx';
 

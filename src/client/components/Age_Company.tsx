@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { FunctionComponent } from 'react';
 import {
   Table,
   TableBody,
@@ -11,7 +11,7 @@ import {
 
 import AgeChart from './AgeChart.js';
 
-export default function Age(props) {
+const Age: FunctionComponent = (props: any) => {
   return (
     <React.Fragment>
       <div hidden={props.value !== props.index}>
@@ -59,4 +59,6 @@ export default function Age(props) {
       </div>
     </React.Fragment>
   );
-}
+};
+
+export default Age;
